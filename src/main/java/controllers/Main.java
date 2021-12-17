@@ -1,7 +1,8 @@
-package infra.runServer;
+package controllers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import java.util.Collections;
 
 

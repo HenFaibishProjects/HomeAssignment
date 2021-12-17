@@ -5,10 +5,13 @@ import businessObjects.User;
 import businessObjects.UserRequest;
 import dataLayer.daoImplements.UserDaoImplement;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-
+@Component
+@ComponentScan("dataLayer.daoImplements")
 @RestController
 public class UserController {
 
